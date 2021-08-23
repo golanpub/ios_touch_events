@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B59E14926CABA9200ACA615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59E14826CABA9200ACA615 /* AppDelegate.swift */; };
+		3B59E14B26CABA9200ACA615 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59E14A26CABA9200ACA615 /* SceneDelegate.swift */; };
+		3B59E14D26CABA9200ACA615 /* TouchEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59E14C26CABA9200ACA615 /* TouchEventsViewController.swift */; };
+		3B59E15026CABA9200ACA615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B59E14E26CABA9200ACA615 /* Main.storyboard */; };
+		3B59E15526CABA9400ACA615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B59E15426CABA9400ACA615 /* Assets.xcassets */; };
+		3B59E15826CABA9400ACA615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B59E15626CABA9400ACA615 /* LaunchScreen.storyboard */; };
+		3BB9F88026CBB1E600BD5FB4 /* TouchEventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB9F87F26CBB1E600BD5FB4 /* TouchEventsView.swift */; };
+		3BB9F88226CBB58A00BD5FB4 /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB9F88126CBB58A00BD5FB4 /* OSLog.swift */; };
+		3BB9F88426CBC9E900BD5FB4 /* TouchEventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB9F88326CBC9E900BD5FB4 /* TouchEventsViewModel.swift */; };
+		3BB9F88D26CBCE0600BD5FB4 /* TouchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB9F88C26CBCE0600BD5FB4 /* TouchEvent.swift */; };
+		3BB9F88F26CBD08300BD5FB4 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB9F88E26CBD08300BD5FB4 /* Configuration.swift */; };
+		3BB9F89226CCA52F00BD5FB4 /* TapsDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB9F89126CCA52F00BD5FB4 /* TapsDetector.swift */; };
+		3BB9F89426CDB13100BD5FB4 /* SwipeEventDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB9F89326CDB13100BD5FB4 /* SwipeEventDetector.swift */; };
+		3BB9F89626CE2C1200BD5FB4 /* CGMathExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB9F89526CE2C1200BD5FB4 /* CGMathExtensions.swift */; };
+		3BB9F89826CE395F00BD5FB4 /* LongPressDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB9F89726CE395F00BD5FB4 /* LongPressDetector.swift */; };
+		3BD625FF26D23F5400CDA89C /* TouchEventsPersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD625FE26D23F5400CDA89C /* TouchEventsPersistenceService.swift */; };
+		3BD6260126D2598500CDA89C /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD6260026D2598500CDA89C /* ConfigurationViewController.swift */; };
+		3BD6260326D378AE00CDA89C /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD6260226D378AE00CDA89C /* Storyboard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B59E14526CABA9200ACA615 /* TouchEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B59E14826CABA9200ACA615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B59E14A26CABA9200ACA615 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3B59E14C26CABA9200ACA615 /* TouchEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchEventsViewController.swift; sourceTree = "<group>"; };
+		3B59E14F26CABA9200ACA615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B59E15426CABA9400ACA615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B59E15726CABA9400ACA615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B59E15926CABA9400ACA615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB9F87E26CBB03300BD5FB4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3BB9F87F26CBB1E600BD5FB4 /* TouchEventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchEventsView.swift; sourceTree = "<group>"; };
+		3BB9F88126CBB58A00BD5FB4 /* OSLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSLog.swift; sourceTree = "<group>"; };
+		3BB9F88326CBC9E900BD5FB4 /* TouchEventsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchEventsViewModel.swift; sourceTree = "<group>"; };
+		3BB9F88C26CBCE0600BD5FB4 /* TouchEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchEvent.swift; sourceTree = "<group>"; };
+		3BB9F88E26CBD08300BD5FB4 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		3BB9F89126CCA52F00BD5FB4 /* TapsDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapsDetector.swift; sourceTree = "<group>"; };
+		3BB9F89326CDB13100BD5FB4 /* SwipeEventDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeEventDetector.swift; sourceTree = "<group>"; };
+		3BB9F89526CE2C1200BD5FB4 /* CGMathExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGMathExtensions.swift; sourceTree = "<group>"; };
+		3BB9F89726CE395F00BD5FB4 /* LongPressDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressDetector.swift; sourceTree = "<group>"; };
+		3BD625FE26D23F5400CDA89C /* TouchEventsPersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchEventsPersistenceService.swift; sourceTree = "<group>"; };
+		3BD6260026D2598500CDA89C /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		3BD6260226D378AE00CDA89C /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B59E14226CABA9200ACA615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B59E13C26CABA9200ACA615 = {
+			isa = PBXGroup;
+			children = (
+				3BB9F87E26CBB03300BD5FB4 /* README.md */,
+				3B59E14626CABA9200ACA615 /* Products */,
+				3B59E14726CABA9200ACA615 /* TouchEvents */,
+			);
+			sourceTree = "<group>";
+		};
+		3B59E14626CABA9200ACA615 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B59E14526CABA9200ACA615 /* TouchEvents.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B59E14726CABA9200ACA615 /* TouchEvents */ = {
+			isa = PBXGroup;
+			children = (
+				3BB9F88826CBCAAC00BD5FB4 /* App */,
+				3BB9F88B26CBCAEC00BD5FB4 /* Helpers */,
+				3BB9F88726CBCA0E00BD5FB4 /* Models */,
+				3BB9F88926CBCABC00BD5FB4 /* Resources */,
+				3BB9F89026CCA4E900BD5FB4 /* Services */,
+				3BB9F88626CBCA0400BD5FB4 /* ViewModels */,
+				3BB9F88526CBC9FD00BD5FB4 /* Views */,
+			);
+			path = TouchEvents;
+			sourceTree = "<group>";
+		};
+		3BB9F88526CBC9FD00BD5FB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BD6260026D2598500CDA89C /* ConfigurationViewController.swift */,
+				3BB9F87F26CBB1E600BD5FB4 /* TouchEventsView.swift */,
+				3B59E14C26CABA9200ACA615 /* TouchEventsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3BB9F88626CBCA0400BD5FB4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3BB9F88326CBC9E900BD5FB4 /* TouchEventsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3BB9F88726CBCA0E00BD5FB4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3BB9F88E26CBD08300BD5FB4 /* Configuration.swift */,
+				3BB9F88C26CBCE0600BD5FB4 /* TouchEvent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3BB9F88826CBCAAC00BD5FB4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3B59E15926CABA9400ACA615 /* Info.plist */,
+				3B59E14826CABA9200ACA615 /* AppDelegate.swift */,
+				3B59E14A26CABA9200ACA615 /* SceneDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		3BB9F88926CBCABC00BD5FB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B59E15426CABA9400ACA615 /* Assets.xcassets */,
+				3B59E15626CABA9400ACA615 /* LaunchScreen.storyboard */,
+				3B59E14E26CABA9200ACA615 /* Main.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3BB9F88B26CBCAEC00BD5FB4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3BB9F88126CBB58A00BD5FB4 /* OSLog.swift */,
+				3BB9F89526CE2C1200BD5FB4 /* CGMathExtensions.swift */,
+				3BD6260226D378AE00CDA89C /* Storyboard.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3BB9F89026CCA4E900BD5FB4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3BB9F89726CE395F00BD5FB4 /* LongPressDetector.swift */,
+				3BB9F89326CDB13100BD5FB4 /* SwipeEventDetector.swift */,
+				3BB9F89126CCA52F00BD5FB4 /* TapsDetector.swift */,
+				3BD625FE26D23F5400CDA89C /* TouchEventsPersistenceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B59E14426CABA9200ACA615 /* TouchEvents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B59E15C26CABA9400ACA615 /* Build configuration list for PBXNativeTarget "TouchEvents" */;
+			buildPhases = (
+				3B59E14126CABA9200ACA615 /* Sources */,
+				3B59E14226CABA9200ACA615 /* Frameworks */,
+				3B59E14326CABA9200ACA615 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchEvents;
+			productName = TouchEvents;
+			productReference = 3B59E14526CABA9200ACA615 /* TouchEvents.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B59E13D26CABA9200ACA615 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3B59E14426CABA9200ACA615 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 3B59E14026CABA9200ACA615 /* Build configuration list for PBXProject "TouchEvents" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B59E13C26CABA9200ACA615;
+			productRefGroup = 3B59E14626CABA9200ACA615 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B59E14426CABA9200ACA615 /* TouchEvents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B59E14326CABA9200ACA615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B59E15826CABA9400ACA615 /* LaunchScreen.storyboard in Resources */,
+				3B59E15526CABA9400ACA615 /* Assets.xcassets in Resources */,
+				3B59E15026CABA9200ACA615 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B59E14126CABA9200ACA615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB9F88D26CBCE0600BD5FB4 /* TouchEvent.swift in Sources */,
+				3BD6260326D378AE00CDA89C /* Storyboard.swift in Sources */,
+				3BB9F89226CCA52F00BD5FB4 /* TapsDetector.swift in Sources */,
+				3BB9F88226CBB58A00BD5FB4 /* OSLog.swift in Sources */,
+				3BB9F88026CBB1E600BD5FB4 /* TouchEventsView.swift in Sources */,
+				3BB9F89626CE2C1200BD5FB4 /* CGMathExtensions.swift in Sources */,
+				3BD625FF26D23F5400CDA89C /* TouchEventsPersistenceService.swift in Sources */,
+				3BB9F89426CDB13100BD5FB4 /* SwipeEventDetector.swift in Sources */,
+				3BB9F89826CE395F00BD5FB4 /* LongPressDetector.swift in Sources */,
+				3B59E14D26CABA9200ACA615 /* TouchEventsViewController.swift in Sources */,
+				3B59E14926CABA9200ACA615 /* AppDelegate.swift in Sources */,
+				3BB9F88F26CBD08300BD5FB4 /* Configuration.swift in Sources */,
+				3BD6260126D2598500CDA89C /* ConfigurationViewController.swift in Sources */,
+				3BB9F88426CBC9E900BD5FB4 /* TouchEventsViewModel.swift in Sources */,
+				3B59E14B26CABA9200ACA615 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B59E14E26CABA9200ACA615 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B59E14F26CABA9200ACA615 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B59E15626CABA9400ACA615 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B59E15726CABA9400ACA615 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B59E15A26CABA9400ACA615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B59E15B26CABA9400ACA615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B59E15D26CABA9400ACA615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2NL94932Y;
+				INFOPLIST_FILE = TouchEvents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.biocatch.TouchEvents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3B59E15E26CABA9400ACA615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2NL94932Y;
+				INFOPLIST_FILE = TouchEvents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.biocatch.TouchEvents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B59E14026CABA9200ACA615 /* Build configuration list for PBXProject "TouchEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B59E15A26CABA9400ACA615 /* Debug */,
+				3B59E15B26CABA9400ACA615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B59E15C26CABA9400ACA615 /* Build configuration list for PBXNativeTarget "TouchEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B59E15D26CABA9400ACA615 /* Debug */,
+				3B59E15E26CABA9400ACA615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B59E13D26CABA9200ACA615 /* Project object */;
+}
